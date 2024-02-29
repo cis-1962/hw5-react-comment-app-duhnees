@@ -1,0 +1,68 @@
+
+.text-input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name-input {
+    font-size: 16px;
+    width: 100%;
+    height: 16px;
+}
+  
+.comment-input {
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+}
+  
+  
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+}
+
+.up-vote-button {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    font-size: 12px;
+}
+
+.down-vote-button {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    font-size: 12px;
+}
+
+.comment-container-individual {
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+    margin: 10px;
+}
+
+.within-comment {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.username {
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 5px;
+}
+  
+.comment {
+    color: white;
+    margin-bottom: 5px;
+    max-width: 300px;
+    white-space: normal;
+    word-wrap: break-word;
+}

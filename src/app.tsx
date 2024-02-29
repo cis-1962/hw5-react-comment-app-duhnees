@@ -1,15 +1,12 @@
-//import { useState } from 'react';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
 import './app.css';
-import { CommentSubmitForm } from './commentRenderer';
+import { TextInput } from './commentInput';
 
 function App() {
-  //const [count, setCount] = useState(0);
 
+  const comments = [];
   return(
-    <div>
-      <CommentSubmitForm />
+    <div style={{width: 500}}>
+      <TextInput comments={comments} depth={0}/>
     </div>
   );
 }
